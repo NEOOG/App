@@ -1,0 +1,5 @@
+07/03/2017 19:13:10 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+07/03/2017 19:15:55 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+07/03/2017 19:48:21 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+08/03/2017 15:09:20 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+08/03/2017 15:09:58 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
