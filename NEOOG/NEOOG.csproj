@@ -1025,6 +1025,7 @@
     <Content Include="Content\Images\social-icons\lastfm.png" />
     <Content Include="Content\Images\social-icons\linkedin.png" />
     <Content Include="Content\Images\social-icons\livejournal.png" />
+    <Content Include="Themes\Metro\Content\Images\logotest.jpg" />
     <Content Include="Content\Images\social-icons\mixx.png" />
     <Content Include="Content\Images\social-icons\myspace.png" />
     <Content Include="Content\Images\social-icons\newsvine.png" />
@@ -1464,6 +1465,7 @@
     <Content Include="Themes\Metro\Content\Scripts\general.js" />
     <Content Include="Themes\Metro\Content\Styles\imports.css" />
     <Content Include="Themes\Metro\Content\Styles\Theme.min.css" />
+    <Content Include="Views\Home\PlantIndex.html" />
     <Content Include="Views\Vote\GetVotes.cshtml" />
     <Content Include="Views\Vote\GetVoters.cshtml" />
     <Content Include="Views\Topic\TopicsMemberHasPostedIn.cshtml" />
