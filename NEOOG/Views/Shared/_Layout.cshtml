@@ -24,6 +24,7 @@
     <meta property="og:title" content="@ViewBag.Title" />
     <meta property="og:site_name" content="@Html.Settings().ForumName" />
     <meta property="og:type" content="website" />
+    <link href="~/Themes/Metro/Content/Styles/Theme.min.css" rel="stylesheet" />
     @RenderSection("SocialMeta", false)
     @ViewBag.Canonical
     @Html.Partial("_StyleSheets", theme)
@@ -64,7 +65,7 @@
 
     <header>
 
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default" role="navigation" id="mainnav">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle menu-btn">
