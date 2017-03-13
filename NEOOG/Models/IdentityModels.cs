@@ -29,5 +29,7 @@ namespace NEOOG.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<NEOOG.Models.Exchange> Exchanges { get; set; }
     }
 }

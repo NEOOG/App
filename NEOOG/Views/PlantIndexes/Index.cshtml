@@ -1,0 +1,51 @@
+﻿@model IEnumerable<NEOOG.Models.PlantIndex>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PlantName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Information)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LinksMore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhotoSrc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlantName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Information)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LinksMore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhotoSrc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PlantID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PlantID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PlantID })
+        </td>
+    </tr>
+}
+
+</table>

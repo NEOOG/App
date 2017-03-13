@@ -1,20 +1,61 @@
 ﻿
 <div class="row documentation-message">
     <div class="col-md-6">
-
         <div class="panel panel-mvc">
-            <div class="panel-heading">Documentation</div>
+            <div class="panel-heading"><a href="https://www.wunderground.com/weather-forecast/44124">Northeast Ohio Weather</a></div>
             <div class="panel-body">
-                <p>
-                    We are slowly putting up all our documentation on <a href="https://github.com/YodasMyDad/mvcforum/wiki">Github in the Wiki</a>. Please feel free to suggest areas which we are missing.
-                </p>
-                <p><a href="http://www.mvcforum.com" class="btn-mvc">Go To Main Site</a></p>
+
+                <p>Currently: <img id="WeatherImage" src="" />  &nbsp;&nbsp;&nbsp;Location: <span id="name"></span></p>
+                <p>Weather: <span id="weather"></span></p>
+                <p>Current Temperature: <span id="temperature"></span></p>
+                <p>Today's Forecast: <span id="forecast"></span></p>
+                <p><span id=""></span></p>
+                <p></p>
+                <p></p>
+<pre>Today:<img id="Day1Image" src="" />    Tomorrow:<img id="Day2Image" src="" />    <span id="Day3"></span>:<img id="Day3Image" src="" />      <span id="Day4"></span>:<img id="Day4Image" src="" />
+<p>High:<span id="day1high"></span>           High:<span id="day2high"></span>               High:<span id="day3high"></span>              High:<span id="day4high"></span></p>
+<p>Low:<span id="day1low"></span>            Low:<span id="day2low"></span>                Low:<span id="day3low"></span>               Low:<span id="day4low"></span></p></pre>
+                <script>
+    $(document).ready(function()
+    {
+            $.get("http://api.wunderground.com/api/e0ca6651feeb68a8/conditions/q/OH/Cleveland.json", function (response) {
+                //response
+                console.log(response);
+                $("#WeatherImage").attr("src",response.current_observation.icon_url);
+                $("#name").text(response.current_observation.display_location.city);
+                $("#temperature").text(response.current_observation.temperature_string)
+                $("#weather").text(response.current_observation.weather);
+        });
+    });
+                </script>
+                <script>
+    $(document).ready(function()
+    {
+            $.get("http://api.wunderground.com/api/e0ca6651feeb68a8/forecast/q/OH/Cleveland.json", function (respond) {
+                //response
+                console.log(respond);
+                $("#Day1Image").attr("src", respond.forecast.simpleforecast.forecastday[0].icon_url);
+                $("#day1high").text(respond.forecast.simpleforecast.forecastday[0].high.fahrenheit);
+                $("#day1low").text(respond.forecast.simpleforecast.forecastday[0].low.fahrenheit);
+                $("#Day2Image").attr("src", respond.forecast.simpleforecast.forecastday[1].icon_url);
+                $("#day2high").text(respond.forecast.simpleforecast.forecastday[1].high.fahrenheit);
+                $("#day2low").text(respond.forecast.simpleforecast.forecastday[1].low.fahrenheit);
+                $("#Day3").text(respond.forecast.txt_forecast.forecastday[4].title);
+                $("#Day3Image").attr("src", respond.forecast.simpleforecast.forecastday[2].icon_url);
+                $("#day3high").text(respond.forecast.simpleforecast.forecastday[2].high.fahrenheit);
+                $("#day3low").text(respond.forecast.simpleforecast.forecastday[2].low.fahrenheit);
+                $("#Day4").text(respond.forecast.txt_forecast.forecastday[6].title);
+                $("#Day4Image").attr("src", respond.forecast.simpleforecast.forecastday[3].icon_url);
+                $("#day4high").text(respond.forecast.simpleforecast.forecastday[3].high.fahrenheit);
+                $("#day4low").text(respond.forecast.simpleforecast.forecastday[3].low.fahrenheit);
+                $("#forecast").text(respond.forecast.txt_forecast.forecastday[0].fcttext);
+        });
+    });
+                </script>
             </div>
         </div>
-
     </div>
     <div class="col-md-6">
-
         <div class="panel panel-mvc">
             <div class="panel-heading">Help Us - Follow & Share</div>
             <div class="panel-body">
@@ -27,7 +68,7 @@
                         <iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/MVCForum/616922301692423&amp;layout=button_count&amp;show_faces=true&amp;width=180&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 95px; height: 21px; padding: 0;" allowtransparency="true">Facebook button</iframe>
                     </div>
                     <div class="col-xs-6">
-                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/follow_button.1387492107.html#_=1387703846448&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=forummvc&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 131px; height: 20px;"></iframe>
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/follow_button.1387492107.html#_=1387703846448&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=Browns1709&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 131px; height: 20px;"></iframe>
                         <script type="text/javascript">
                             !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
                         </script>

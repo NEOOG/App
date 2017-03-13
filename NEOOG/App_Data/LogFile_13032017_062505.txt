@@ -1,0 +1,63 @@
+07/03/2017 19:13:10 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+07/03/2017 19:15:55 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 15:02:32 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 15:29:40 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 15:55:46 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 15:55:59 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 16:19:18 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 16:19:31 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 16:55:48 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 16:55:53 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 18:34:52 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 18:35:06 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 18:35:24 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 18:43:58 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 18:44:00 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | Multiple types were found that match the controller named 'Home'. This can happen if the route that services this request ('{controller}/{action}/{id}') does not specify namespaces to search for a controller that matches the request. If this is the case, register this route by calling an overload of the 'MapRoute' method that takes a 'namespaces' parameter.
+
+The request for 'Home' has found the following matching controllers:
+MVCForum.Website.Controllers.HomeController
+NEOOG.HomeController
+10/03/2017 19:14:54 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:15:07 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:16:36 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:16:44 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:18:16 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:18:23 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:22:19 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:22:26 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:23:07 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:23:14 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:30:32 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:30:40 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:46:13 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:46:20 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 19:48:47 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 19:48:54 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 20:42:43 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+10/03/2017 20:42:50 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 20:43:40 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+10/03/2017 20:44:06 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+12/03/2017 17:44:35 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 15:37:07 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 15:37:22 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 17:43:38 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 17:43:56 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\NEOOG\NEOOG\Views\PlantIndexes\Create.cshtml(63): error CS0103: The name 'Scripts' does not exist in the current context
+13/03/2017 17:45:10 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 17:47:49 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 17:48:19 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:03:07 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:06:10 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:06:35 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:07:33 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:10:43 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:11:17 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:14:33 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:15:00 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:18:19 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:19:09 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:19:12 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:21:55 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:22:14 | MVCForum.Website.dll | Application_Error | MVCForum.Website.MvcApplication | 0 | A public action method 'getweather' was not found on controller 'MVCForum.Website.Controllers.HomeController'.
+13/03/2017 18:24:37 | MVCForum.Website.dll | Application_Start | MVCForum.Website.MvcApplication | 0 | START APP
+13/03/2017 18:24:40 | MVCForum.Services.dll | GetResourceString | MVCForum.Services.LocalizationService | 0 | This resource key 'Plant Index' was not found for the language English (United Kingdom).
+13/03/2017 18:24:52 | MVCForum.Services.dll | GetResourceString | MVCForum.Services.LocalizationService | 0 | This resource key 'Plant Index' was not found for the language English (United Kingdom).

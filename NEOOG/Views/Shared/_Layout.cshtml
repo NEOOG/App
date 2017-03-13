@@ -11,6 +11,7 @@
     TempData[AppConstants.CurrentAction] = ViewContext.RouteData.GetRequiredString("action").ToLower();
     TempData[AppConstants.CurrentController] = ViewContext.RouteData.GetRequiredString("controller").ToLower();
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
@@ -159,5 +160,9 @@
     {
         @Html.Raw(Html.Settings().CustomFooterCode)
     }    
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+    <script src="~/Scripts/knockout-2.0.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
 </body>
+
 </html>
