@@ -13,8 +13,8 @@
                 <p></p>
                 <p></p>
 <pre>Today:<img id="Day1Image" src="" />    Tomorrow:<img id="Day2Image" src="" />    <span id="Day3"></span>:<img id="Day3Image" src="" />      <span id="Day4"></span>:<img id="Day4Image" src="" />
-<p>High:<span id="day1high"></span>           High:<span id="day2high"></span>               High:<span id="day3high"></span>              High:<span id="day4high"></span></p>
-<p>Low:<span id="day1low"></span>            Low:<span id="day2low"></span>                Low:<span id="day3low"></span>               Low:<span id="day4low"></span></p></pre>
+                <br />High:<span id="day1high"></span>           High:<span id="day2high"></span>               High:<span id="day3high"></span>              High:<span id="day4high"></span><br />
+Low:<span id="day1low"></span>            Low:<span id="day2low"></span>                Low:<span id="day3low"></span>               Low:<span id="day4low"></span><br /></pre>
                 <script>
     $(document).ready(function()
     {
@@ -57,24 +57,61 @@
     </div>
     <div class="col-md-6">
         <div class="panel panel-mvc">
-            <div class="panel-heading">Help Us - Follow & Share</div>
+            <div class="panel-heading">Organic Gardening Articles</div>
             <div class="panel-body">
-                <p>
-                    We need your help to improve MVCForum and get the word out about it. Please follow/like us
-                    via one of the links below, or tweet or share MVCForum to your friends and colleagues.
-                </p>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/MVCForum/616922301692423&amp;layout=button_count&amp;show_faces=true&amp;width=180&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 95px; height: 21px; padding: 0;" allowtransparency="true">Facebook button</iframe>
+
+                <!-- Carousel
+                ================================================== -->
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <a href="http://www.realfarmacy.com/how-to-repel-28-garden-pests-with-herbs-and-essential-oils/"><img class="thumbnail" src="http://www.realfarmacy.com/wp-content/uploads/2014/06/cucumber-beetle.jpg" alt="Slide1"></a>
+                            <div class="caption">
+                                <h4>Natural Pest Repellents</h4>
+                                <p> Use essential oils and companion planting to keep your garden pest free this summer.  Click on the picture to view the full article. </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.healthy-holistic-living.com/garden-house-diy-pest-control-easier-think-recipes-included.html?t=MAM"><img class="thumbnail" src="http://cdn.healthy-holistic-living.com/wp-content/uploads/2016/06/bugspray.jpg" alt="Slide2"></a>
+                            <div class="caption">
+                                <h4>From Your Garden to Your House DIY Pest Control Is Easier Than You Think (Recipes Included)</h4>
+                                <p>Natural pest control is actually less expensive than using pesticides, and it’s safer for your garden, your family, wildlife and the environment.  Click on picture to view the full article. </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.realfarmacy.com/build-bee-hotels-to-help-save-native-bees/"><img class="thumbnail" src="http://www.realfarmacy.com/wp-content/uploads/2016/02/3414009975_a2942609a8_o1.jpg" alt="Slide3"></a>
+                            <div class="caption">
+                                <h4>Help the bees in your area.  Build a bee hotel!</h4>
+                                <p>Bees are an integral part of our ecosystem. A garden with happy, healthy bees grows happy, healthy plants. Why not help these friendly pollinators even more by building “bee hotels”?  Click on the picture to view the full article. </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.healthy-holistic-living.com/grow-100-pounds-potatoes-4-square-feet.html?t=MAM"><img class="thumbnail" src="http://cdn.healthy-holistic-living.com/wp-content/uploads/2014/06/potatoes.gif" alt="Slide4"></a>
+                            <div class="caption">
+                                <h4>How to Grow 100 Pounds of Potatoes in 4 Square Feet.</h4>
+                                <p>Potatoes are fairly low maintenance, can be grown in a pot or in the ground, last a fairly long time if stored properly, and can be very nutritious (high in potassium and vitamin C). Here’s more incentive: according to this article, you can grow 100 pounds of potatoes in 4 sq. feet.   Click on the picture to view the full article.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="https://thehomestead.guru/walipini-designs/?utm_campaign=coschedule&utm_source=facebook_page&utm_medium=Libertarian%20Gardeners,%20Homesteaders,%20and%20Survivalists&utm_content=Grow%20Food%20Year%20Round%20in%20a%20$300%20Underground%20Greenhouse"><img class="thumbnail" src="https://thehomestead.guru/wp-content/uploads/2017/03/wal1.jpg" alt="Slide5"></a>
+                            <div class="caption">
+                                <h4>Grow Food Year Round in a $300 Underground Greenhouse</h4>
+                                <p>The word Walipini, derived from the Aymaran language and an indigenous Bolivian tribe, is translated as “a place of warmth” and is an earth sheltered cold frame or transparent-roofed enclosure.  Click on the picture to view the full article.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-6">
-                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/follow_button.1387492107.html#_=1387703846448&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=Browns1709&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 131px; height: 20px;"></iframe>
-                        <script type="text/javascript">
-                            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
-                        </script>
+                    <!-- Controls -->
+                    <div class="carousel-controls">
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
                     </div>
-                </div>
+                </div><!-- End Carousel -->
             </div>
         </div>
+
     </div>
 </div>
